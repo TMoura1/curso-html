@@ -2,6 +2,9 @@ header{
     background-color: black; 
     height: 75px;
 }
+header:hover{
+    background-color: grey; 
+}
 
 h1{
     text-align: left; 
@@ -16,6 +19,7 @@ h2{
     font-family: MontSerrat, Helvetica, arial;
     text-align: left;
     text-decoration: underline;
+    
 }
 h3{
     text-decoration: underline; 
@@ -36,6 +40,11 @@ footer{
     color: white;
     font-family: Montserrat; 
     font-style: italic; 
+}
+
+footer:hover{
+    background-color: grey; 
+    color: black; 
 }
 p.informacoes{
     font-style: italic; 
@@ -67,9 +76,10 @@ h2.cabecalho-objetivo{
 p.endereco{
     color: black;
     
+    
 }
 .endereco{
-    font-family: monospace;
+    font-family: Helvetica, arial;
     font-style: italic;
     
 }
@@ -85,4 +95,13 @@ ul.lista{
     /*font-style: italic;*/
     font-size: 15px; 
     font-family: Helvetica, arial; 
+    border: 0.2px solid white; 
+    padding: 10px 20px 10px 40px; 
+    background-color: white;
+    text-align: justify; 
+}
+h2.atribuicoes{
+    font-family: Helvetica, arial;
+    /*text-align: center; */
+    font-style: italic;
 }
